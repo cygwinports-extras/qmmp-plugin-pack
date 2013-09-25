@@ -1,12 +1,12 @@
 inherit qt4-cmake
 
 NAME="qmmp-plugin-pack"
-VERSION=0.6.4
+VERSION=0.7.2
 RELEASE=1
 CATEGORY="Audio"
 SUMMARY="Additional plugins for QMMP audio player"
 DESCRIPTION="The Qt Multimedia Player is a audio player with a user interface
 similar to WinAmp or XMMS."
 HOMEPAGE="http://qmmp.ylsoftware.com/"
-SRC_URI="http://qmmp.ylsoftware.com/files/plugins/${P}.tar.bz2"
+SRC_URI="http://qmmp.ylsoftware.com/files/plugins/${NAME}-${VERSION}.tar.bz2"
 PATCH_URI="01-cygwin.patch"
