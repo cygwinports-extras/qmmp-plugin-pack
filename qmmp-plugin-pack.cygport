@@ -10,3 +10,5 @@ similar to WinAmp or XMMS."
 HOMEPAGE="http://qmmp.ylsoftware.com/"
 SRC_URI="http://qmmp.ylsoftware.com/files/plugins/${NAME}-${VERSION}.tar.bz2"
 PATCH_URI="01-cygwin.patch"
+
+CYGCMAKE_ARGS="-DQT_LRELEASE_EXECUTABLE=${QT4_LRELEASE}"
