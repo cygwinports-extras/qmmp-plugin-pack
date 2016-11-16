@@ -1,7 +1,7 @@
 inherit qt4-cmake
 
 NAME="qmmp-plugin-pack"
-VERSION=0.8.2
+VERSION=0.10.2
 RELEASE=1
 CATEGORY="Audio"
 SUMMARY="Additional plugins for QMMP audio player"
